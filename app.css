@@ -1,0 +1,27 @@
+body {
+    background: url("https://images6.alphacoders.com/419/thumb-1920-419933.jpg");
+  }
+#main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#img-div {
+    background-color: #060508;
+    max-width: 25%;
+}
+#image {
+    display: block;
+    margin: auto;
+    width: 100%;
+    border: 1px solid red;
+}
+#img-caption {
+    color: white;
+}
+#tribute-info {
+    background-color: gray;
+}
+#title {
+    width: 75%
+}
