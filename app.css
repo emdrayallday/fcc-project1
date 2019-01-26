@@ -1,30 +1,30 @@
 body {
     background: url("https://images6.alphacoders.com/419/thumb-1920-419933.jpg");
   }
-#main {
+  #main {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-}
-#img-div {
+  }
+  #img-div {
     background-color: #060508;
     max-width: 25%;
-}
-#image {
+    align-self: center;
+  }
+  #image {
     display: block;
     margin: auto;
     max-width: 100%;
-    border: 1px solid red;
-}
-#img-caption {
+  }
+  #img-caption {
     color: white;
-}
-#tribute-info, p {
-    background-color: gray;
-    display: block;
-}
-#title {
     text-align: center;
+  }
+  #tribute-info, p {
+    background-color: gray;
+    text-align: center;
+  }
+  #title {
     font-size: 50px;
-
-}
+    text-align: center;
+  }
