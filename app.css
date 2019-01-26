@@ -13,14 +13,15 @@ body {
 #image {
     display: block;
     margin: auto;
-    width: 100%;
+    max-width: 100%;
     border: 1px solid red;
 }
 #img-caption {
     color: white;
 }
-#tribute-info {
+#tribute-info, p {
     background-color: gray;
+    display: block;
 }
 #title {
     width: 75%
