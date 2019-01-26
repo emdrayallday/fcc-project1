@@ -23,8 +23,11 @@ body {
   #tribute-info, p {
     background-color: gray;
     text-align: center;
+    margin: auto;
   }
   #title {
     font-size: 50px;
     text-align: center;
+    color: white;
+    text-shadow: 2px 2px black;
   }
