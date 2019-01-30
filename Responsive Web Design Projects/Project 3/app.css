@@ -2,13 +2,19 @@ body {
     background-color: pink;
   }
   
-  #nav-bar {
+  .nav-link {
+    background-color: cornflowerblue;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  header {
     position: fixed;
-    float: right;
   }
   
   #header-img {
-    width: 50px;
+    width: 250px;
   }
   
   @media screen and (min-width: 480px) {
