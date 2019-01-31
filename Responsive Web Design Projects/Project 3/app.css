@@ -1,34 +1,41 @@
 body {
-    background-color: pink;
+  background-color: pink;
+}
+
+.nav-link {
+  background-color: cornflowerblue;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  position: fixed;
+}
+
+#header-img {
+  margin-left: 25px;
+}
+nav {
+  margin: 50px;
+}
+#header-img {
+  width: 250px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+#merch, #anthem {
+  padding: 100px;
+  margin-top: 100px;
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen;
   }
-  
-  .nav-link {
-    background-color: cornflowerblue;
-    padding: 10px;
-    text-decoration: none;
-    color: white;
-  }
-  nav {
-      margin: 50px;
-  }
-  header {
-    position: fixed;
-  }
-  
-  #header-img {
-    margin-left: 25px;
-  }
-  #music {
-    display: flex;
-    justify-content: center;
-    margin-left: 100px;
-  }
-  #header-img {
-    width: 250px;
-  }
-  
-  @media screen and (min-width: 480px) {
-    body {
-      background-color: lightgreen;
-    }
-  }
+}
