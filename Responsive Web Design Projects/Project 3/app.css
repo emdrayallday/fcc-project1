@@ -18,7 +18,11 @@ body {
   #header-img {
     margin-left: 25px;
   }
-  
+  #music {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+  }
   #header-img {
     width: 250px;
   }
